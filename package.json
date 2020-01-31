@@ -1,0 +1,22 @@
+{
+  "name": "devweb_code_cromai",
+  "version": "1.0.0",
+  "description": "teste webDev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larissayk/devWeb_code_cromai.git"
+  },
+  "author": "Larissa Kido",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Larissayk/devWeb_code_cromai/issues"
+  },
+  "homepage": "https://github.com/Larissayk/devWeb_code_cromai#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

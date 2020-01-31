@@ -26,45 +26,139 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <!--Main Navigation-->
     <header>
-
-<!--Mask-->
-<div id="intro" class="view">
-
-    <div class="mask rgba-black-strong">
-
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
+      <!--Mask-->
+      <div id="intro" class="view">
+        <div class="mask rgba-black-strong">
+          <div
+            class="container-fluid d-flex align-items-center justify-content-center h-100"
+          >
             <div class="row d-flex justify-content-center text-center">
+              <div class="col-md-10">
+                <!-- Heading -->
+                <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                  Missão Cromai
+                </h2>
 
-                <div class="col-md-10">
+                <!-- Divider -->
+                <hr class="hr-light" />
 
-                    <!-- Heading -->
-                    <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Missão Cromai</h2>
-
-                    <!-- Divider -->
-                    <hr class="hr-light">
-
-                    <!-- Description -->
-                    <h4 class="white-text my-4">Mostrar para o grande filósofo matemático Pitágoras que nada foi em vão, e para isso uma calculadora que será capaz de calcular a relação entre os lados de um triângulo retângulo (mais conhecido popularmente como teorema de pitágoras), será desenvolvida aqui no planeta Cromailand. </h4>
-
-                </div>
-
+                <!-- Description -->
+                <h4 class="white-text my-4">
+                  Mostrar ao grande filósofo matemático Pitágoras que nada foi
+                  em vão, e para isso uma calculadora que será capaz de calcular
+                  a relação entre os lados de um triângulo retângulo (mais
+                  conhecido popularmente como <i>Teorema de Pitágoras</i>), será
+                  desenvolvida aqui no planeta Cromailand.
+                </h4>
+              </div>
             </div>
-
+          </div>
         </div>
-
-    </div>
-
-</div>
-<!--/.Mask-->
+      </div>
+      <!--/.Mask-->
     </header>
     <!--Main Navigation-->
 
     <!--Main layout-->
-    <main></main>
+    <main class="mt-5">
+      <div class="container">
+        <!-- Card -->
+        <div class="card">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-6 mb-4">
+              <!-- Card image -->
+              <img
+                class="card-img p-4 "
+                src="img/pitagoras_teorema.jpg"
+                alt="Card image"
+              />
+            </div>
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-6 mb-4">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <h4 class="card-title"><a>Teorema de Pitágoras</a></h4>
+                <!-- Text -->
+                <p class="card-text text-justify">
+                  Pitágoras nos contou que num belo dia, ao olhar para o chão
+                  onde apareciam alguns desenhos, ele verificou, por composição
+                  e decomposição de figuras, uma propriedade de todos os
+                  triângulos retângulos:
+                </p>
+                <p class="card-text text-center">
+                  A área de um quadrado construído sobre a hipotenusa (lado
+                  oposto ao ângulo reto) de um triângulo retângulo é igual à
+                  soma das áreas dos quadrados construídos sobre os catetos (os
+                  outros dois lados).
+                </p>
+                <hr />
+
+                <!-- Calculator form -->
+                <form class= "needs-validation" novalidate>
+                  <h5 class="mb-4 text-center">Calculando a hipotenusa</h5>
+
+                  <!-- Cateto Oposto -->
+                  <label class="text-muted" for="cateto_op"
+                    >Cateto Oposto</label
+                  >
+                  <input
+                    type="number"
+                    id="cateto_op"
+                    class="form-control"
+                    placeholder="Digite aqui..."
+                    required
+                        />
+                   <div class="invalid-feedback">
+                    Valor do cateto oposto é obrigatório!
+                  </div>
+
+                  <!-- Cateto Adjascente -->
+                  <label class="text-muted mt-4" for="cateto_adj"
+                    >Cateto Adjascente</label>
+                  <input
+                    type="number"
+                    id="cateto_adj"
+                    class="form-control"
+                    placeholder="Digite aqui..."
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valor do cateto adjascente é obrigatório!
+                  </div>
+
+                  <!-- Hipotenusa -->
+                  <label class="text-muted mt-4" for="hipotenusa"
+                    >Valor da Hipotenusa</label
+                  >
+                  <input
+                    type="number"
+                    step="1"
+                    id="hipotenusa"
+                    class="form-control mb-4"
+                    placeholder="E o valor é..."
+                    value=""
+                    disabled
+                  />
+
+                  <!-- Sign in button -->
+                  <button class="btn btn-info btn-block" type="submit" id="calculate">
+                    Calcular
+                  </button>
+                </form>
+                <!-- Default form subscription -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+    </main>
     <!--Main layout-->
 
     <!--Footer-->
@@ -80,6 +174,8 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Your custom scripts (optional) -->
-    <script type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Axios -->
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
   </body>
 </html>
