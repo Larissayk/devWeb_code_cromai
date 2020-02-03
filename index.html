@@ -28,6 +28,30 @@
   <body>
     <!--Main Navigation-->
     <header>
+      <!--Navbar-->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"
+      >
+        <div class="container">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">Cromailand</a>
+
+          <!-- Collapse button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#basicExampleNav"
+            aria-controls="basicExampleNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+      <!--/.Navbar-->
+
       <!--Mask-->
       <div id="intro" class="view">
         <div class="mask rgba-black-strong">
@@ -35,7 +59,7 @@
             class="container-fluid d-flex align-items-center justify-content-center h-100"
           >
             <div class="row d-flex justify-content-center text-center">
-              <div class="col-md-10">
+              <div class="col-md-8">
                 <!-- Heading -->
                 <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
                   Missão Cromai
@@ -52,6 +76,11 @@
                   conhecido popularmente como <i>Teorema de Pitágoras</i>), será
                   desenvolvida aqui no planeta Cromailand.
                 </h4>
+                <button type="button" class="btn btn-outline-white">
+                  <a href="#teoremaPitagoras"
+                    >Inicie a jornada<i class="fas fa-rocket ml-2"></i
+                  ></a>
+                </button>
               </div>
             </div>
           </div>
@@ -61,109 +90,553 @@
     </header>
     <!--Main Navigation-->
 
-    <!--Main layout-->
-    <main class="mt-5">
-      <div class="container">
-        <!-- Card -->
-        <div class="card">
+    <main>
+      <!--Section: about-->
+      <section id="about" class="py-5">
+        <!-- Container -->
+        <div class="container">
+          <!-- Section heading -->
+          <h2
+            class="h1-responsive font-weight-bold text-center mb-5"
+            style="color:#e65100"
+          >
+            Como tudo começou?
+          </h2>
+          <!-- Section description -->
+          <p class="lead text-justify mx-auto mb-5">
+            Na Grécia, por volta do século VI a.C., Pitágoras (580-500 a.C.)
+            fundou uma escola mística secreta chamada <i>Escola Pitagórica</i>.
+            Os membros desta sociedade, os pitagóricos, tinham uma filosofia de
+            vida em que os números apresentavam importância fundamental: a
+            harmonia do universo, o movimento dos planetas, a vida animal e
+            vegetal, o som, a luz, tudo isso só podia ser explicado através dos
+            números.
+          </p>
+
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-lg-5 text-center">
+              <img
+                class="card-img text-center"
+                src="img/pitagoras.jpg"
+                alt="Imagem de Pitágoras"
+                style="width:330px;height:330px"
+              />
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-7">
+              <!-- Grid row -->
+              <div class="row mb-3">
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <p class="text-justify">
+                    Pitágoras nos contou que num belo dia, ao olhar para o chão
+                    onde apareciam alguns desenhos, ele verificou, por
+                    composição e decomposição de figuras, uma propriedade de
+                    todos os triângulos retângulos:
+                  </p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+
+              <!-- Grid row -->
+              <div class="row mb-3">
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <p class="text-justify">
+                    A área de um quadrado construído sobre a hipotenusa (lado
+                    oposto ao ângulo reto) de um triângulo retângulo é igual à
+                    soma das áreas dos quadrados construídos sobre os catetos
+                    (os outros dois lados).
+                  </p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+
+              <!--Grid row-->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-1">
+                  <i class="fa fa-mail-forward fa-lg purple-text"></i>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-xl-10 col-md-11 col-10">
+                  <p class="mb-0 text-justify">
+                    Desta relação surgiu o Teorema de Pitágoras tal como o
+                    conhecemos hoje:
+                    <strong
+                      >Num triângulo retângulo, o quadrado da hipotenusa é igual
+                      à soma dos quadrados dos catetos.</strong
+                    >
+                  </p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!--Grid column-->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Container -->
+      </section>
+
+      <hr class=" mx-5" />
+
+      <!--Section: teorema-->
+      <section id="teorema" class="text-center py-5">
+        <!-- Container -->
+        <div class="container">
+          <!-- Section heading -->
+          <h2 class="h1-responsive font-weight-bold mb-5">
+            Mas o que é o Teorema de Pitágoras?
+          </h2>
+
+          <!--Grid row-->
+          <div class="row justify-content-center mb-4">
+            <!--Grid column-->
+            <div class="col-md-12">
+              <!-- Description -->
+              <p>
+                O Teorema de Pitágoras é um dos assuntos mais conhecidos da
+                Matemática. Ele é uma das primeiras coisas que lembramos quando
+                falamos sobre geometria ou trigonometria. Sua descoberta foi
+                importante para a época, pois impulsionou inúmeros outros
+                estudos, os quais fizeram com que a matemática avançasse até os
+                dias atuais. Seu enunciado é simples, assim como os cálculos
+                envolvidos. Esse teorema só pode ser aplicado em um triângulo
+                retângulo, que é aquele onde há um ângulo igual a 90°, que
+                chamamos de ângulo reto. Daí o nome, triângulo retângulo.
+              </p>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
           <!--Grid row-->
           <div class="row">
             <!--Grid column-->
-            <div class="col-lg-6 col-md-6 mb-4">
-              <!-- Card image -->
-              <img
-                class="card-img p-4 "
-                src="img/pitagoras_teorema.jpg"
-                alt="Card image"
-              />
+            <div class="col-md-4 mb-4">
+              <!--Carousel Wrapper-->
+              <div
+                id="carousel-example-1z"
+                class="carousel slide carousel-fade carousel-fade"
+                data-ride="carousel"
+              >
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carousel-example-1z"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner round" role="listbox">
+                  <!--First slide-->
+                  <div
+                    class="carousel-item active"
+                    style="background-color: white;"
+                  >
+                    <img
+                      class="img-fluid p-5"
+                      src="img/pitagoras_teorema.jpg"
+                      style="width:350px;height:350px"
+                      alt="Nomenclatura do triângulo retângulo e a equação do teorema de Pitágoras"
+                    />
+                  </div>
+                  <!--Second slide-->
+                  <div class="carousel-item" style="background-color: #D2D2FF;">
+                    <img
+                      class="img-fluid p-5 circle"
+                      src="img/demonstracao-teorema-pitagoras-2.gif"
+                      style="width:350px;height:350px"
+                      alt="Demonstração da veracidade do teorema de Pitágoras"
+                    />
+                  </div>
+                </div>
+                <!--Controls-->
+                <a
+                  class="carousel-control-prev"
+                  href="#carousel-example-1z"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carousel-example-1z"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
             </div>
 
             <!--Grid column-->
-            <div class="col-lg-6 col-md-6 mb-4">
-              <!-- Card content -->
-              <div class="card-body">
-                <!-- Title -->
-                <h4 class="card-title"><a>Teorema de Pitágoras</a></h4>
-                <!-- Text -->
-                <p class="card-text text-justify">
-                  Pitágoras nos contou que num belo dia, ao olhar para o chão
-                  onde apareciam alguns desenhos, ele verificou, por composição
-                  e decomposição de figuras, uma propriedade de todos os
-                  triângulos retângulos:
-                </p>
-                <p class="card-text text-center">
-                  A área de um quadrado construído sobre a hipotenusa (lado
-                  oposto ao ângulo reto) de um triângulo retângulo é igual à
-                  soma das áreas dos quadrados construídos sobre os catetos (os
-                  outros dois lados).
-                </p>
-                <hr />
+            <div class="col-md-8 text-left">
+              <!--Excerpt-->
+              <h4 class="mb-3" style="color:#bf360c">
+                <strong>Fórmula do teorema de Pitágoras</strong>
+              </h4>
+              <p class="text-justify">
+                Em um triângulo retângulo, o lado maior, AB, recebe o nome de
+                <strong>Hipotenusa</strong>. Este lado sempre estará oposto ao
+                ângulo reto. Os outros dois lados, BC e CA recebem o nome de
+                <strong>Cateto</strong>. O enunciado do Teorema diz o seguinte:
+              </p>
 
-                <!-- Calculator form -->
-                <form class= "needs-validation" novalidate>
-                  <h5 class="mb-4 text-center">Calculando a hipotenusa</h5>
+              <p class="text-center">
+                <i
+                  >"O quadrado da medida da hipotenusa é igual a soma do
+                  quadrado das medidas dos catetos”</i
+                >
+              </p>
 
-                  <!-- Cateto Oposto -->
-                  <label class="text-muted" for="cateto_op"
-                    >Cateto Oposto</label
-                  >
-                  <input
-                    type="number"
-                    id="cateto_op"
-                    class="form-control"
-                    placeholder="Digite aqui..."
-                    required
-                        />
-                   <div class="invalid-feedback">
-                    Valor do cateto oposto é obrigatório!
-                  </div>
+              <p>
+                Observando a figura ao lado, podemos resumir, matematicamente, o
+                enunciado em:
+              </p>
 
-                  <!-- Cateto Adjascente -->
-                  <label class="text-muted mt-4" for="cateto_adj"
-                    >Cateto Adjascente</label>
-                  <input
-                    type="number"
-                    id="cateto_adj"
-                    class="form-control"
-                    placeholder="Digite aqui..."
-                    required
-                  />
-                  <div class="invalid-feedback">
-                    Valor do cateto adjascente é obrigatório!
-                  </div>
-
-                  <!-- Hipotenusa -->
-                  <label class="text-muted mt-4" for="hipotenusa"
-                    >Valor da Hipotenusa</label
-                  >
-                  <input
-                    type="number"
-                    step="1"
-                    id="hipotenusa"
-                    class="form-control mb-4"
-                    placeholder="E o valor é..."
-                    value=""
-                    disabled
-                  />
-
-                  <!-- Sign in button -->
-                  <button class="btn btn-info btn-block" type="submit" id="calculate">
-                    Calcular
-                  </button>
-                </form>
-                <!-- Default form subscription -->
+              <div class="container text-center border p-2">
+                <p>CB<sup>2</sup>=AB<sup>2</sup>+AC<sup>2</sup></p>
+                <p class="mb-0">a<sup>2</sup>=b<sup>2</sup>+c<sup>2</sup></p>
               </div>
             </div>
           </div>
         </div>
-        <!-- Card -->
+      </section>
+
+      <hr class=" mx-5" />
+
+      <!--Section: presente-->
+      <section id="presente" class="text-center py-5">
+        <!-- Container -->
+        <div class="container">
+          <!-- Heading -->
+          <h2 class="h1-responsive font-weight-bold mb-5">
+            De volta ao presente...
+          </h2>
+          <h5 class="pb-1" style="color: #bf360c;">
+            <i class="fas fa-heart-broken" style="color:#bf360c"></i
+            ><strong> Matemático Desiludido </strong>
+          </h5>
+
+          <!--Grid row-->
+          <div class="row justify-content mb-4">
+            <!--Grid column-->
+            <div class="col-md-12">
+              <!-- Description -->
+              <p class="text-justify">
+                Foi um choque retornar ao passado e descobrir que o grande
+                filósofo matemático Pitágoras estava pensando seriamente em
+                largar tudo e desistir de seus estudos. Se ele soubesse como
+                suas descobertas revolucionaram a matemática e da quantidade de
+                suas aplicações nos dias de hoje. Talvez se houvesse uma maneira
+                de mostrar isso para ele, o fizesse se sentir mais motivado a
+                continuar com seu trabalho. Depois de pensar um pouco, eu e os
+                Cromaianos decidimos que talvez haveria uma chance de ajudarmos
+                Pitágoras!
+                <strong
+                  >Porque não mostrar para o grande matemático a sua teoria
+                  colocada em prática e algumas de suas utilizações?</strong
+                >
+              </p>
+            </div>
+          </div>
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-12 mb-4">
+              <!--Card-->
+              <div class="card card-round">
+                <!--Card content-->
+                <div class="card-body p-5">
+                  <!--Title-->
+                  <i
+                    class="fas fa-drafting-compass orange-text fa-3x pb-4 pt-1"
+                  ></i>
+                  <h4 class="font-weight-bold card-title">
+                    Arquitetura & Construção
+                  </h4>
+                  <!--Text-->
+                  <p class="card-text">
+                    O Teorema de Pitágoras permite calcular o comprimento da
+                    diagonal entre duas linhas retas e é frequentemente usada em
+                    arquitetura e projetos de construção.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4">
+              <!--Card-->
+              <div class="card card-round">
+                <!--Card content-->
+                <div class="card-body p-5">
+                  <!--Title-->
+                  <i class="far fa-compass fa-3x orange-text pb-4 pt-1"></i>
+                  <h4 class="font-weight-bold card-title">Navegação</h4>
+                  <!--Text-->
+                  <p class="card-text">
+                    No caso de navegação bidimensional, o Teorema de Pitágoras
+                    pode ser usado para calcular a menor distância entre 2
+                    pontos. Os mesmos princípios podem ser usados ​​para a
+                    navegação aérea.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6">
+              <!--Card-->
+              <div class="card card-round">
+                <!--Card content-->
+                <div class="card-body p-5">
+                  <!--Title-->
+                  <i class="fas fa-mountain fa-3x orange-text pb-4 pt-1"></i>
+                  <h4 class="font-weight-bold card-title">
+                    Levantamento Topográfico
+                  </h4>
+                  <!--Text-->
+                  <p class="card-text">
+                    O Teorema de Pitágoras é usado na agrimessura pelos
+                    cartógrafos para calcular a inclinação de encostas de
+                    colinas ou montanhas antes de criar um mapa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class=" mx-5" />
+
+      <!--Section: calculadora-->
+      <section id="calculadora" class="text-center py-5">
+        <!-- Container -->
+        <div class="container">
+          <!-- Section heading -->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-6 mb-4">
+              <h3 class="h2-responsive font-weight-bold mb-5">
+                Calculadora da Hipotenusa
+              </h3>
+              <h5 class="pb-1" style="color: #bf360c;">
+                <i class="fas fa-star" style="color:#bf360c"></i
+                ><strong> Uma esperança </strong>
+              </h5>
+
+              <p class="text-justify">
+                Como uma tentativa de motivar Pitágoras ainda mais a continuar
+                seus estudos, desenvolvemos essa calculadora de hipotenusa que
+                tem o poder de pegar os valores dos catetos e enviá-los através
+                do tempo para serem calculados pela API dos cromaianos aqui do
+                presente e reenviá-los de volta para 535 A.C. Se tudo der certo,
+                isso provará à Pitágoras que sua teoria está correta e que de
+                fato é uma área muito promissora.
+              </p>
+            </div>
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-6 mb-4 text-left">
+              <div class="card p-4">
+                <form
+                  id="myform"
+                  class="needs-validation border border-light p-4"
+                  novalidate
+                >
+                  <!-- Cateto Oposto -->
+                  <div class="form-group mb-0">
+                    <label class="text-muted" for="cateto_op"
+                      >Cateto Oposto</label
+                    >
+                    <input
+                      type="number"
+                      id="cateto_op"
+                      class="form-control"
+                      placeholder="Digite aqui..."
+                      pattern="-?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Campo de preechimento obrigatório e aceita somente números
+                      inteiros
+                    </div>
+                  </div>
+
+                  <!-- Cateto Adjascente -->
+                  <div class="form-group">
+                    <label class="text-muted mt-4" for="cateto_adj"
+                      >Cateto Adjascente</label
+                    >
+                    <input
+                      type="number"
+                      id="cateto_adj"
+                      class="form-control"
+                      placeholder="Digite aqui..."
+                      pattern="-?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Campo de preechimento obrigatório e aceita somente números
+                      inteiros
+                    </div>
+                  </div>
+
+                  <!-- Hipotenusa -->
+                  <div id="hipotenusa" class="form-group">
+                    <label class="text-muted mt-4" for="hipotenusa"
+                      >Valor da Hipotenusa</label
+                    >
+                    <input
+                      type="number"
+                      step="1"
+                      id="hipotenusa"
+                      class="form-control mb-4"
+                      placeholder="E o valor é..."
+                      value=""
+                      disabled
+                    />
+                  </div>
+
+                  <!--Grid row-->
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-6 mt-2">
+                      <!-- Reset button -->
+                      <button
+                        class="btn btn-outline-warning btn-block round-btn"
+                        onclick="clearInput()"
+                        type="button"
+                        id="limpar"
+                      >
+                        Limpar
+                      </button>
+                    </div>
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-6 mt-2">
+                      <!-- Calculate button -->
+                      <button
+                        class="btn btn-outline-warning btn-block round-btn"
+                        type="submit"
+                        id="calculate"
+                      >
+                        Calcular
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Modal: modalPush-->
+      <div
+        class="modal animated zoomIn"
+        id="modalPush"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-notify modal-info" role="document">
+          <!--Content-->
+          <div class="modal-content text-center">
+            <!--Header-->
+            <div class="modal-header d-flex justify-content-center">
+              <p class="heading">Você recebeu uma mensagem do futuro!</p>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true" class="white-text">×</span>
+              </button>
+            </div>
+
+            <!--Body-->
+            <div class="modal-body">
+              <img src="img/email.gif" style="width:300px; height: 180px" />
+
+              <p>
+                Caro Pitágoras, tenho ótimas notícias! Depois de nossa conversa
+                e com a ajuda dos cromaianos do futuro, conseguimos a prova que
+                faltava para o estudo que estava desenvolvendo!
+              </p>
+              <p>
+                <span class="green-text">cateto_op<sup>2</sup></span> +
+                <span class="blue-text">cateto_adj<sup>2</sup></span> =
+                <span class="red-text">Hipotenusa<sup>2</sup></span>
+              </p>
+              <p>
+                <span class="green-text" id="valorCatOp"></span
+                ><sup class="green-text">2</sup> +
+                <span class="blue-text" id="valorCatAd"></span
+                ><sup class="blue-text">2</sup> =
+                <span class="red-text">Hipotenusa<sup>2</sup></span>
+              </p>
+              <strong
+                ><p>
+                  Hipotenusa = <span class="red-text" id="resultHip"></span></p
+              ></strong>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
-    <!--Main layout-->
 
     <!--Footer-->
-    <footer></footer>
-    <!--Footer-->
+    <footer class="page-footer font-small brown darken-4">
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/">
+          Teste Cromai - Desenvolvedor Web</a
+        >
+      </div>
+    </footer>
 
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>

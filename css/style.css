@@ -4,17 +4,90 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(201, 201, 201);
+}
+
+h2,
+h3 {
+  color: #e65100;
+}
+
+p {
+  color: rgb(128, 126, 126);
+}
+
 html,
 body,
 header,
 #intro {
-    height: 100%;
+  height: 100%;
 }
 
 #intro {
-    background: url("https://images.wallpaperscraft.com/image/tractor_field_art_145691_3840x2400.jpg")no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("https://miro.medium.com/max/1800/1*rg7h2LAgDW5H8urY6MjW5A.jpeg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+#hipotenusa {
+    display:none;
+}
+
+.round {
+    box-shadow: 0px 0px 40px 11px rgba(79, 118, 157, 0.1);
+    border-radius: 50%;
+  }
+
+.round-btn {
+    border-radius: 0.5rem;
+}
+  
+  .card {
+    box-shadow: 0px 0px 40px 11px rgba(79, 118, 157, 0.1);
+  }
+  
+  .card-round {
+    box-shadow: 0px 0px 40px 11px rgba(79, 118, 157, 0.1);
+    border-radius: 50%;
+  }
+  
+  .card-body {
+    height: 355px;
+  }
+  
+  .img-round {
+    border-radius: 50%;
+  }
+
+.top-nav-collapse {
+  background-color: #e68611;
+}
+
+.modal-dialog.modal-notify.modal-info .modal-header {
+    background-color: #e68611;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #e68611;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #e68611;
+  }
+}
+

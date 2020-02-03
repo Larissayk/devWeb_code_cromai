@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Larissayk/devWeb_code_cromai#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "underscore": "^1.9.2",
+    "validate-js": "^2.0.1"
   }
 }
